@@ -19,13 +19,6 @@ h1 {
   word-break: break-all;
 }
 
-h3 {
-  font-color: #ffd369;
-}
-
-p {
-  font-color: white;
-}
 .row {
   margin: 8px -16px;
 }
@@ -52,6 +45,7 @@ p {
 /* Content */
 .content {
   background-color: pink;
+  font-color: #EEEEEE;
   padding: 10px;
 }
 
