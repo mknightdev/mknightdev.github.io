@@ -24,7 +24,7 @@ h3 {
 }
 
 p {
-  font-color: #EEEEEE;
+  font-color: white;
 }
 .row {
   margin: 8px -16px;
@@ -51,7 +51,7 @@ p {
 
 /* Content */
 .content {
-  background-color: #393e46;
+  background-color: pink;
   padding: 10px;
 }
 
