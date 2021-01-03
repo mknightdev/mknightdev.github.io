@@ -48,10 +48,6 @@ h1 {
   padding: 10px;
 }
 
-p {
-  color: #EEEEEE;
-}
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -67,5 +63,13 @@ p {
 }
 
 .headers {
-  font-color: #ffd369;
+  color: #FFD369;
+}
+
+p {
+  color: #EEEEEE;
+}
+
+h3 {
+  color: #FFD369;
 }
