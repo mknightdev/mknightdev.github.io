@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #222831;
   padding: 20px;
   font-family: Arial;
 }
@@ -44,7 +44,7 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: #393e46;
   padding: 10px;
 }
 
