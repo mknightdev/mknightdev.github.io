@@ -45,8 +45,11 @@ h1 {
 /* Content */
 .content {
   background-color: #393E46;
-  font-color: #EEEEEE;
   padding: 10px;
+}
+
+p {
+  color: blue;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
