@@ -26,13 +26,13 @@ h1 {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 5px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 /* Clear floats after rows */
@@ -45,7 +45,8 @@ h1 {
 /* Content */
 .content {
   background-color: #393E46;
-  padding: 10px;
+  padding: 25px;
+  align-items: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -72,4 +73,86 @@ p {
 
 h3 {
   color: #FFD369;
+  /* text-decoration: underline; */
+  text-align: center;
+  font-weight: bold;
+}
+
+div {
+  margin: auto;
+  /* Keeps the top of the containers level with each other. */
+  margin-top: 1px;
+}
+
+a {
+  color: #FFD369
+}
+
+.headerBar {
+  background-color: #393E46;
+  padding: 10px;
+  align-items: center;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+h2 {
+  color: #FFD369;
+  /* text-decoration: underline; */
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width: 95%;
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #393E46;
+  top: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #222831;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #222831;
+}
+
+li:last-child{
+  border-right: none;
+}
+
+.active {
+  background-color: #FFD369;
+}
+
+#description {
+  text-align: center;
 }
