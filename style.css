@@ -49,6 +49,10 @@ h1 {
   align-items: center;
 }
 
+.content p {
+  text-align: left;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -104,13 +108,20 @@ h2 {
   text-decoration: underline;
 }
 
+/* Footer */
+html {height: 100%}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom:[footer-height]
+}
+
 .footer {
-  text-align: center;
-  align-items: center;
   position: absolute;
-  bottom: 0;
-  height: 2.5rem;
-  width: 95%;
+  left: 0; right: 0; bottom: 0;
+  height:[footer-height];
+  text-align: center;
 }
 
 /* Navigation Bar */
