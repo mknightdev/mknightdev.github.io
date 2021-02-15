@@ -167,3 +167,8 @@ li:last-child{
 #description {
   text-align: center;
 }
+
+.highlight {
+  color: #FFD369; /* Yellow */
+  font-weight: bold;
+}
