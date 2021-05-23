@@ -124,6 +124,12 @@ img {
   grid-area: top-box-b;
 }
 
+.top-box .box {
+  box-shadow: none;
+  text-align: left;
+  padding: 0;
+}
+
 /* Boxes */
 .boxes {
   display: grid;
@@ -135,7 +141,7 @@ img {
   background: var(--primary);
   text-align: center;
   padding: 1.5rem;
-  box-shadow: var(--shadow)
+  box-shadow: var(--shadow);
 }
 
 /* Info */
