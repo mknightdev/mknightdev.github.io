@@ -5,145 +5,67 @@
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Link for Bootstrap Style Sheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-    crossorigin="anonymous">
     <!-- Link for Personal Style Sheet -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0feee00f65.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <title>Michael Knight's Website</title>
   </head>
+
   <body>
-    <!-- NAVIGATION BAR -->
-    <ul class"headers">
-      <li><a class="active" href="https://mknightdev.github.io/">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    
+    <div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="https://mknightdev.github.io/">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Top Container -->
+        <section class="top-container">
+            <header class="showcase">
+                <h1>Michael Knight</h1>
+                <p>C#/C++ Game Developer</p>
+            </header>
 
-    <!-- Page Description -->
-    <p id="description">
-      Hi! My name is <span class="highlight">Michael</span>, and I'm a second year
-      <span class="highlight">Games Software Engineering</span> student at
-      Bournemouth University.
-    </p>
-    <p id="description">
-      On this page, you will find my projects I have done throughout University.
-    </p>
+            <div class="top-box top-box-a">
+                <h1>About Me</h1>
+                <p>Hi! I'm a 23 year old games developer in the United Kingdom. I'm a student studying Games Software Engineering, going into my final year in September 2021. On this site, you can find information about myself and projects that I have completed and ones that I'm currently working on.</p>
+                <p>Feel free to contact me using one of my socials, or by email and I'll be sure to get back to you as soon as possible.</p>
+            </div>
 
-    <div class="headerBar">
-      <h2>Second Year Work</h2>
-    </div>
+            <div class="top-box top-box-b">
+                <h1>Contact Me / Socials</h1>
+                <div class="box">
+                    <a href="mailto:mknightdev@gmail.com" style="color:#333"><span class="iconify fa-4x" data-icon="clarity:email-solid" data-inline="false"></span></a>
+                    <a href="https://twitter.com/mknightdev" target="_blank"><span class="iconify fa-4x" data-icon="logos:twitter" data-inline="false"></span></a>
+                    <a href="https://reddit.com/u/mknightdev" target="_blank"><span class="iconify fa-4x" data-icon="logos:reddit-icon" data-inline="false"></span></a>
+                    <a href="https://www.linkedin.com/in/michael-knight-b80190176/" target="_blank"><span class="iconify fa-4x" data-icon="logos:linkedin-icon" data-inline="false"></span></a>
+                </div>
+            </div>
+        </section>
 
-    <!-- Second Year - First Row -->
-    <div id="content" class="row">
-      <div class="column">
-          <div style="text-align: center;" class="content">
-            <h3 class="headers">Game Studio Project [WIP]</h3>
-              <p>
-                Currently working on a group project, creating an FPS roguelike game with two other people.
-              </p>
-              <p>
-                A detailed description will be added once the project has been completed.
+        <!-- Boxes -->
+        <section class="boxes">
+            <div class="box">
+                <span class="iconify fa-4x" data-icon="logos-unity" data-inline="false"></span>
+                <h3>Unity</h3>
+                <p>I primarily use Unity to create games and code in C#.</p>
+            </div>
 
-                We were tasked to create a game using any desired game engine, which
-                my group had chosen <span class="highlight">Unity</span> because
-                we all had a lot of experience with it. The game idea and genre was
-                down to us as a group, and once decided, we could start development.
-              </p>
-          </div>
-      </div>
+            <div class="box">
+                <span class="iconify fa-4x" data-icon="logos-visual-studio" data-inline="false"></span>
+                <span class="iconify fa-4x" data-icon="logos-visual-studio-code" data-inline="false"></span>
+                <h3>Visual Studio / Visual Studio Code</h3>
+                <p>I use Visual Studio for my Unity scripts and C++ projects. For HTML, I use Visual Studio Code.</p>
+            </div>
 
-      <div class="column">
-        <div style="text-align: center;" class="content">
-          <iframe width="100%" height="400"
-            src="https://www.youtube.com/embed/DuI9kYRsD_M" frameborder="0"
-            allowfullscreen="allowfullscreen">
-          </iframe>
-            <h3 class="headers">THE BALL</h3>
-              <p>
-                This was for my 'Programming for Interaction' unit assignment,
-                created in the first semester of my second year.
-              </p>
-              <p>
-                We were given a project that had a ball, platform, and a couple of
-                interactable items. The task was to amend the game to make it more
-                meaningful and ensuring the user interface was consistent.
-
-                We were given a <span class="highlight">Unity</span> project that had a ball, platform, and a
-                couple of interactable items. The task was to amend the game
-                using <span class="highlight">C#</span> to make it more meaninguful and ensuring the user
-                interface was consistent.
-              </p>
-          </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <a href="https://github.com/mknightdev/AIGP_Assignment" target="_blank">
-            <img src="images/astar.png" alt="A* Pathfinding Result" width="100%" height="100%">
-          </a>
-            <h3>A* Path-finding Algorithm</h3>
-              <p style="text-align:center">
-                (Click the image to view the source code)
-              <p>
-                For my 'Ai Games Programming' unit, I had to create two
-                <span class="highlight">C++</span> console-based applications
-                demonstrating <span class="highlight">A* path-finding</span> and
-                a second algorithm of my choice, which I chose
-                <span class="highlight">Genetic algorithm</span> and used them to
-                compare against each other.
-              </p>
-              <p style="font-style: italic;">
-                <span class="highlight">Note:</span> The A* path-finding algorithm
-                I implemented can find the path, but it isn't the shortest path,
-                which is what the algorithm should do. I have plans to revist the project
-                to try and get it working as intended.
-              </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="headerBar">
-      <h2>First Year Work</h2>
-    </div>
-
-    <!-- First Year - Second Row -->
-    <div id="content" class="row">
-      <div class="column">
-        <div class="content">
-          <a href="https://www.construct.net/en/free-online-games/bodyheat-7837/play" target="_blank">
-            <img src="images/bodyheat.png" alt="Body Heat" width="100%" height="100%">
-          </a>
-            <h3 class="headers">BODYHEAT</h3>
-              <p style="text-align:center">
-                (Click the image to play!)
-              </p>
-              <p>
-                Body Heat was for my 'Digital Technologies' assignment and was
-                created using <span class="highlight">Construct 2</span> engine,
-                using the <span class="highlight">scripting</span> feature.
-              </p>
-        </div>
-      </div>
-      <div class="column">
-        <div style="text-align: center;" class="content">
-          <iframe width="100%" height="400"
-            src="https://www.youtube.com/embed/qFtWPOoVriY" frameborder="0"
-            allowfullscreen="allowfullscreen">
-          </iframe>
-          <h3>HANGMAN</h3>
-            <p>
-              This was an 'Introduction to Programming' assignment during my first year of University.
-              We had to create the game 'hangman' in a console-based application
-              using <span class="highlight">C++</span>.
-            </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer Area / Hyperlinks for social media -->
-    <footer class="footer">
-      <p>Follow me on <a href="https://twitter.com/mknightdev">Twitter</a> for updates!</p>
-    </footer>
-
+            <div class="box">
+                <span class="iconify fa-4x" data-icon="simple-icons:aseprite" data-inline="false"></span>
+                <h3>Aseprite</h3>
+                <p>I use Aseprite to create pixel art in my 2D games.</p>
+            </div>
   </body>
 </html>
