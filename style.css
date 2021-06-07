@@ -144,6 +144,10 @@ img {
   box-shadow: var(--shadow);
 }
 
+a { 
+  margin: 0.5rem;
+}
+
 /* Info */
 .info {
   background: var(--primary);
