@@ -144,7 +144,7 @@ img {
   box-shadow: var(--shadow);
 }
 
-a { 
+.box a { 
   margin: 0.5rem;
 }
 
@@ -213,4 +213,13 @@ a {
     'top-box-a'
     'top-box-b';
   }
+}
+
+/* Container for Projects */
+.top-container-projects {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+      'top-box-a top-box-b'
+      'showcase showcase';
 }
