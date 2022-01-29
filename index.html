@@ -4,17 +4,108 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <style>
+      body {
+        font-family: 'Roboto Slab', serif;
+      }
+    </style>
+
+    <title>Michael Knight</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Header Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center pt-5 pb-2">Michael Knight</h1>
+        </div>
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="https://twitter.com/mknightdev" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></a>
+            <a href="https://github.com/mknightdev" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/michael-knight-b80190176/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UCNNXY746jRuywtZ7yZdma9g" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
+            <a href="mailto:mknightdev@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+          </div>
+
+        <div class="col-12">
+          <p class="text-center pb-5 m-3"><i>Final year, Games Software Engineering student studying at Bournemouth University. Below you will see all my projects that I have created at University and in my own time.</i></p>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="img/modelviewer.png" alt="3D Model Viewer" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">3D Model Viewer</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda delectus cupiditate nobis maiores minus!</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modelViewer">View</button>
+              <div class="modal" id="modelViewer">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">3D Model Viewer</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/NzVz9ReNSk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illo assumenda nostrum. Vitae voluptatum aperiam quam voluptas, qui et eveniet beatae adipisci tempora a?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="badge round-pill bg-warning">Second Year</span>
+              <span class="badge round-pill bg-secondary">C++</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://picsum.photos/799/598" alt="Random Photo #1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Random Photo #1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda delectus cupiditate nobis maiores minus!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://picsum.photos/799/598" alt="Random Photo #2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Random Photo #2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda delectus cupiditate nobis maiores minus!</p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/0feee00f65.js" crossorigin="anonymous"></script>
 
   </body>
 </html>
