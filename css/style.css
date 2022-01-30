@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Slab', serif;
+    margin-bottom: 1rem;
 }
 
 .row-cols-1 a {
@@ -7,3 +8,14 @@ body {
     color: inherit;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.bg-personal {
+    background-color: purple;
+}
