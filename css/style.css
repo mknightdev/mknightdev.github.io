@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto Slab', serif;
     margin-bottom: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
 
 .row-cols-1 a {
@@ -17,5 +21,39 @@ h5 {
 }
 
 .bg-personal {
-    background-color: purple;
+    background-color: purple;   
+}
+
+section {
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+
+section ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section ul li {
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+    background: #03a9f4;
+    color: #fff;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .card {
+    position: relative;
 }
