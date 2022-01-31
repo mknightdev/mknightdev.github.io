@@ -1,10 +1,17 @@
+:root {
+    --font: #252422;
+    --font-active: #FFFCF2;
+    --button-active: #EB5E28;
+    --bg: #CCC5B9;
+    --footer: #FBF9F4;
+    --button: #403D39;
+}
+
 body {
     font-family: 'Roboto Slab', serif;
     margin-bottom: 1rem;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    background-color: var(--bg);
+    color: var(--font);
 }
 
 .row-cols-1 a {
@@ -16,37 +23,20 @@ body {
     font-weight: bold;
 }
 
+.card-body {
+    background-color: var(--font-active);
+}
+
+.card-footer {
+    background-color: var(--footer);
+}
+
 h5 {
     font-weight: bold;
 }
 
 .bg-personal {
     background-color: purple;   
-}
-
-section {
-    padding: 20px;
-    width: 1280px;
-    margin: 40px auto;
-}
-
-section ul {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-section ul li {
-    list-style: none;
-    background: #eee;
-    padding: 8px 20px;
-    margin: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-section ul li.active {
-    background: #03a9f4;
-    color: #fff;
 }
 
 .projects {
@@ -57,3 +47,45 @@ section ul li.active {
 .projects .card {
     position: relative;
 }
+
+.btn-toolbar.mb-3 {
+    margin-left: 1.25rem;
+}
+
+.btn {
+    color: var(--font-active) !important;
+    background-color: var(--button);
+    border-color: var(--button)
+}
+
+.btn:hover {
+    background-color: var(--button-active);
+    border-color: var(--button-active);
+}
+
+.btn-active {
+    color: var(--font-active);
+    background-color: var(--button-active);
+    border-color: var(--button-active);
+}
+
+.btn:focus {
+    color: var(--font-active);
+    background-color: var(--button-active);
+    border-color: var(--button-active);
+}
+
+.badge {
+    color: var(--font-active)
+}
+
+/* 
+384x854 (Galaxy S20+ Linux
+390x844 (iPhone 12/13+ Pro)
+*/
+
+@media only screen and (max-width: 860px) {
+    .btn-toolbar.mb-3 {
+        padding-right: 2rem;
+    }
+  }
