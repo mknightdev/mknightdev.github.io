@@ -5,6 +5,12 @@
     --bg: #CCC5B9;
     --footer: #FBF9F4;
     --button: #403D39;
+
+    --firstyear: #825F45;
+    --secondyear: #797D69;
+    --finalyear: #D08C60;
+    --personal: #FFCB69;
+    --language: #997B66;
 }
 
 body {
@@ -36,7 +42,23 @@ h5 {
 }
 
 .bg-personal {
-    background-color: purple;   
+    background-color: var(--personal)   
+}
+
+.bg-firstyear {
+    background-color: var(--firstyear);
+}
+
+.bg-secondyear {
+    background-color: var(--secondyear);
+}
+
+.bg-finalyear {
+    background-color: var(--finalyear);
+}
+
+.bg-language {
+    background: var(--language);
 }
 
 .projects {
