@@ -88,15 +88,4 @@ h5 {
     .btn-toolbar.mb-3 {
         padding-right: 2rem;
     }
-
-    /* .first {
-        position: absolute;
-        left: 6.5rem;
-    } */
-
-    .second {
-        position: relative;
-        top: 11rem;
-        left: 5rem;
-    }
 }
