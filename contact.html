@@ -41,32 +41,49 @@
           <div class="col-12 mt-3">       
             <div class="mynav text-center">
               <a href="index.html"><button type="button" class="btn">Projects</button></a>
-              <a href="about.html"><button type="button" class="btn btn-active">About</button></a>
-              <a href="contact.html"><button type="button" class="btn">Contact</button></a>
+              <a href="about.html"><button type="button" class="btn">About</button></a>
+              <a href="contact.html"><button type="button" class="btn btn-active">Contact</button></a>
             </div>
           </div>
         </div>
     </div>
 
-    <div class="container pt-3">
-      <div class="row">
-
-        <div class="col-5 pt-3">
-          <img class="ratio ratio-16x9 text-center" src="img/miq.jpg" alt="miq">
+    <div class="container mt-5">
+      <h1>Contact Me!</h1>
+      <form class="row g-3" action="https://formsubmit.co/mknightdev@gmail.com" method="POST">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required>
         </div>
 
-        <div class="col-7 pt-3">
-          <h4 style="font-weight: bold">Hello!</h4>
-          <p>Born in Guildford, UK and studying in Bournemouth!</p>
-          <p>I am a final-year student studying Games Software Engineering at Bournemouth University. While here, I have been studying a varity of subjects, such as Artificial Intelligence, Game Engines, and 3D Graphics.</p>
-          <p>In my free time, I enjoy playing video games, such as the latest Spider-Man games, Kena: Bridge of Spirits, Minecraft, Rainbow Six: Siege and Rainbow Six: Extraction. When I am not playing games, I like to try create my own games or adapt or previously made ones by adding my own twist.</p>
-          <p>To get away from the desk, I enjoy going on walks, trying new food and taking pictures on my phone camera and a traditional reusable camera.</p>
+        <div class="col-md-8">
+          <label for="emailInfo" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInfo" required>
         </div>
 
-      </div>
+        <div class="col-md-4">
+          <label for="phoneInfo" class="form-label">Phone Number(Optional)</label>
+          <input type="text" class="form-control" id="phoneInfo" placeholder="+447700900669">
+        </div>
+
+        <div class="col-md-12">
+          <label for="comments" class="form-label">Comments</label>
+          <textarea class="form-control" id="comments" rows="5" required></textarea>
+        </div>
+
+        <div class="col-md-12">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+
+      </form>
     </div>
 
-  
+
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
