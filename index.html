@@ -67,10 +67,50 @@
       <button type="button" class="filter-btn btn my-1 mx-1" data-filter="cplusplus">C++</button>
     </div>
 
-    <!-- PBR Demo -->
     <div class="projects">
       <div class="container">
         <div class="row g-3">
+
+          <!-- Dissertation -->
+          <div class="project finalyear cplusplus col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/car.png" alt="virtual car" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">[WIP] Training a Virtual Car</h5>
+                <p class="card-text"><i>Final Year Project</i></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fyp">View</button>
+                <div class="modal" id="fyp">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">[WIP] Training a Virtual Car</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                          <iframe class="pb-3" src="https://www.youtube.com/embed/I1APHYFWvv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h5>About</h5> 
+                        <p class="mt-2">This project is currently a work in progress.</p>
+                        <p>For my final year project, I decided to train a virtual car using deep reinforcement learning (PPO) with Unity's ML-Agents toolkit. My aim is to have the agent park in one of the given spaces with a 80-95% success rate. The agent in the video above is currently at 99% success rate, however there are some mistakes it makes that do not currently count as a failure.</p>
+                        <p>Currently, I am fine-tuning the reward and punishment values and will be adding additional ways that the episode can end, such as driving onto the path. Once the project is finished, I will make the source code available and provide the documents that outline the parameters throughout development.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <!-- <a href="https://github.com/mknightdev/Hangman" target="_blank" class="disabled"><p>Source Code</p></a> -->
+                        <p><i>Source code coming soon</i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <span class="badge round-pill bg-finalyear">Final Year</span>
+                <span class="badge round-pill bg-language">C#</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PBR Demo -->
           <div class="project finalyear cplusplus col-12 col-md-6 col-lg-4">
             <div class="card">
               <img src="img/pbrdemo.png" alt="PBR Tech Demo" class="card-img-top">
