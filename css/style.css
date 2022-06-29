@@ -101,6 +101,10 @@ h5 {
     color: var(--font-active)
 }
 
+.div.date{
+    float: left;
+}
+
 /* 
 384x854 (Galaxy S20+ Linux
 390x844 (iPhone 12/13+ Pro)
