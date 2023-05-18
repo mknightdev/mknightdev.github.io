@@ -11,6 +11,7 @@
     --finalyear: #D08C60;
     --personal: #FFCB69;
     --language: #997B66;
+    --mobile: #753742;
 }
 
 body {
@@ -59,6 +60,10 @@ h5 {
 
 .bg-language {
     background: var(--language);
+}
+
+.bg-mobile {
+    background: var(--mobile);
 }
 
 .projects {
