@@ -12,6 +12,7 @@
     --personal: #FFCB69;
     --language: #997B66;
     --mobile: #753742;
+    --wip: #000000;
 }
 
 body {
@@ -64,6 +65,10 @@ h5 {
 
 .bg-mobile {
     background: var(--mobile);
+}
+
+.bg-wip {
+    background-color: var(--wip);
 }
 
 .projects {
