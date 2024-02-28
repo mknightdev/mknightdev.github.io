@@ -13,6 +13,8 @@
     --language: #997B66;
     --mobile: #753742;
     --wip: #000000;
+
+    --hyperlink: #EB5E28;
 }
 
 body {
@@ -113,6 +115,10 @@ h5 {
 
 .div.date{
     float: left;
+}
+
+a {
+    color: var(--hyperlink);
 }
 
 /* 
