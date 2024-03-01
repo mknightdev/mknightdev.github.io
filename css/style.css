@@ -3,9 +3,9 @@
     --font-active: #FFFCF2;
     --button-active: #EB5E28;
     --bg: #CCC5B9;
-    --footer: #FBF9F4;
     --button: #403D39;
-
+    
+    /* Cards */
     --firstyear: #825F45;
     --secondyear: #797D69;
     --finalyear: #D08C60;
@@ -13,6 +13,9 @@
     --language: #997B66;
     --mobile: #753742;
     --wip: #000000;
+    --card-border: #403D39;
+    --card-body: #FFFCF2;
+    --card-footer: #FBF9F4;
 
     --hyperlink: #EB5E28;
 }
@@ -24,9 +27,23 @@ body {
     color: var(--font);
 }
 
+.name-header {
+    font-size: 34px;
+}
+
+.name-header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .row-cols-1 a {
     text-decoration: none !important;
     color: inherit;
+}
+
+.card {
+    border-color: var(--card-border);
+    background-color: var(--card-border);
 }
 
 .card-title {
@@ -34,11 +51,19 @@ body {
 }
 
 .card-body {
-    background-color: var(--font-active);
+    background-color: var(--card-body);
 }
 
 .card-footer {
-    background-color: var(--footer);
+    background-color: var(--card-footer);
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.card-text {
+    /* font-size: 16px; */
 }
 
 h5 {
@@ -71,6 +96,13 @@ h5 {
 
 .bg-wip {
     background-color: var(--wip);
+    /* border-radius: 0%; */
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    /* right: 0; */
+    height: 7.5%;
+    width: 15%;
 }
 
 .projects {
@@ -121,10 +153,20 @@ a {
     color: var(--hyperlink);
 }
 
+a.clickable-project {
+    text-decoration: none; 
+    color: inherit;
+}
+
 /* 
 384x854 (Galaxy S20+ Linux
 390x844 (iPhone 12/13+ Pro)
 */
+
+.view-button {
+    /* display: none; */
+    display: inline;
+}
 
 @media only screen and (max-width: 860px) {
     .btn-toolbar.mb-3 {
@@ -133,5 +175,9 @@ a {
 
     .btn {
         margin-bottom: .25rem;
+    }
+
+    .view-button {
+        display: inline;
     }
 }
