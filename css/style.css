@@ -158,14 +158,17 @@ a.clickable-project {
     color: inherit;
 }
 
-/* 
-384x854 (Galaxy S20+ Linux
-390x844 (iPhone 12/13+ Pro)
-*/
-
 .view-button {
     /* display: none; */
     display: inline;
+}
+
+.header-image {
+    max-width: 900px;
+    max-height: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 860px) {
