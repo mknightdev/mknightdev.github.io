@@ -178,6 +178,10 @@ a.clickable-project {
     border-color: var(--table-border);
 }
 
+.table {
+    max-width: fit-content;
+}
+
 @media only screen and (max-width: 860px) {
     .btn-toolbar.mb-3 {
         padding-right: 2rem;
