@@ -17,6 +17,9 @@
     --card-body: #FFFCF2;
     --card-footer: #FBF9F4;
 
+    /* Tables */
+    --table-border: #403D39;
+
     --hyperlink: #EB5E28;
 }
 
@@ -169,6 +172,10 @@ a.clickable-project {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.table.table-bordered {
+    border-color: var(--table-border);
 }
 
 @media only screen and (max-width: 860px) {
